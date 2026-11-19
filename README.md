@@ -6,5 +6,5 @@ Site estático hospedado na Vercel.
 
 - `index.html` — landing page
 - `vercel.json` — cabeçalhos de segurança (CSP com hashes, HSTS, etc.)
-- `vendor/` — GSAP e ScrollTrigger hospedados localmente
+- `/fornecedor/` — GSAP e ScrollTrigger hospedados localmente
 - `scripts/gerar-csp.py` — regenera o `vercel.json` (rodar após mudar qualquer script do `index.html`)
